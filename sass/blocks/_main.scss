@@ -1,0 +1,67 @@
+.main {
+  margin-top: 56px;
+
+  &-card {
+
+    &__title {
+      @include interB;
+      font-size: 90px;
+      text-align: center;
+      margin: 0 auto;
+      width: 700px;
+    }
+
+    &__subtitle {
+      @include interR;
+      font-size: 30px;
+      text-align: center;
+      margin: 32px auto 0 auto;
+      width: 540px;
+    }
+
+    &__img {
+      margin-top: 64px;
+      max-width: 984px;
+      width: 100%;
+    }
+
+    &__alt {
+      @include interR;
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-top: 8px;
+    }
+  }
+  
+  &-description {
+    margin-top: 92px;
+
+    &__title {
+      @include interB;
+      font-size: 54px;
+    }
+
+    &__paragraph {
+      @include interR;
+      margin-top: 40px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 163%;
+      width: 690px;
+    }
+
+    &__preferences {
+      margin-top: 33px;
+    }
+
+    & li {
+      @include interB;
+      line-height: 163%;
+    }
+
+    & span {
+      @include interR;
+    }
+  }
+}

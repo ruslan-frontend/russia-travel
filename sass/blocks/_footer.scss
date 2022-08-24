@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  width: 100%;
+  margin: 92px auto 24px auto;
+
+  &-nav {
+    display: flex;
+    & p {
+      @include interR;
+      font-size: 16px;
+      line-height: 18px;
+      margin-right: 18px;
+    }
+    & p:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  &-info {
+    & p {
+      @include interR;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+}

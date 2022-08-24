@@ -1,0 +1,217 @@
+.header {
+  margin: 28px 48px 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+}
+.header span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.main {
+  margin-top: 56px;
+}
+.main-card__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 90px;
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+}
+.main-card__subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 32px auto 0 auto;
+  width: 540px;
+}
+.main-card__img {
+  margin-top: 64px;
+  max-width: 984px;
+  width: 100%;
+}
+.main-card__alt {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+.main-description {
+  margin-top: 92px;
+}
+.main-description__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 54px;
+}
+.main-description__paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  width: 690px;
+}
+.main-description__preferences {
+  margin-top: 33px;
+}
+.main-description li {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  line-height: 163%;
+}
+.main-description span {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.photos {
+  max-width: 1184px;
+  margin: 92px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.photos-img {
+  margin-bottom: 16px;
+}
+
+.places {
+  margin-top: 92px;
+}
+.places-card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-promo__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 72px;
+  line-height: 76px;
+}
+.card-promo__img {
+  margin-top: 48px;
+}
+
+.card-description {
+  margin: auto 0;
+}
+.card-description__url {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+}
+.card-description__site {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin: 12px 0 48px 0;
+}
+.card-description__paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 163%;
+  margin-bottom: 26px;
+  width: 485px;
+}
+
+.bottom {
+  margin-top: 92px;
+}
+.bottom-description {
+  position: relative;
+  text-align: center;
+}
+.bottom-description__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: #fff;
+  font-size: 72px;
+  line-height: 76px;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 560px;
+  width: 100%;
+}
+.bottom-description__subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 360px;
+  width: 100%;
+}
+.bottom-description__img {
+  width: 1184px;
+  max-width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  width: 100%;
+  margin: 92px auto 24px auto;
+}
+.footer-nav {
+  display: flex;
+}
+.footer-nav p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+}
+.footer-nav p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-info p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+}/*# sourceMappingURL=style.css.map */

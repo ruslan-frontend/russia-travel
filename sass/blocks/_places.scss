@@ -1,0 +1,50 @@
+.places {
+  margin-top: 92px;
+
+  &-card {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between
+  }
+}
+
+.card-promo {
+
+  &__title {
+    @include interB;
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  &__img {
+    margin-top: 48px;
+  }
+}
+
+.card-description {
+  margin: auto 0;
+
+  &__url {
+    @include GreyInterR;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+  }
+
+  &__site {
+    @include interR;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin: 12px 0 48px 0;
+  }
+
+  &__paragraph {
+    @include interR;
+    font-size: 18px;
+    line-height: 163%;
+    margin-bottom: 26px;
+    width: 485px;
+  }
+}

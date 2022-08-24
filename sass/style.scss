@@ -1,0 +1,26 @@
+$inter: 'Inter', sans-serif;
+
+@mixin interB {
+  font-family: $inter;
+  font-weight: 900;
+  color: #fff;
+}
+
+@mixin interR {
+  font-family: $inter;
+  font-weight: 400;
+  color: #fff;
+}
+
+@mixin GreyInterR {
+  font-family: $inter;
+  font-weight: 400;
+  color: #AAAAAA;
+}
+
+@import './blocks/_header';
+@import './blocks/_main';
+@import './blocks/_photos';
+@import './blocks/_places';
+@import './blocks/_bottom';
+@import './blocks/_footer';
